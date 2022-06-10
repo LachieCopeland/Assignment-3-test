@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width: 480px)"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>PAKENHAM MUSIC</h1>
+        <div class="container">
+            <form action="" class="search_bar">
+                <button type="submit"><img src="Images/Search icon.png"></button>
+                <input type="text" placeholder="Search Products" name="q">
+                
+            </form>
+        </div>
+        <h2><a href="cart.html"><img src="Images/CartIcon.png" style="width:30px;height:20px;padding-right:10px;vertical-align: middle;">My Cart</a></h2>
+        <div class="mobile-version">
+            <img src="Images/Group 74.png">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <form action="" class="search">
+                    <button type="submit"><img src="Images/Search icon.png"></button>
+                    <input type="text" placeholder="Search Products" name="q">
+                </form>
+                <a href="index.html">HOME</a>
+                <a href="product-list.html">GUITARS</a>
+                <a href="#">KEYS</a>
+                <a href="#">DRUMS</a>
+                <a href="#">ORCHESTRAL</a>
+              </div>
+              
+              <span style="font-size:30px;cursor:pointer;color:#FEF301;" onclick="openNav()">&#9776;</span>  
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Guitars</a></li>
+                <li><a href="#">Keys</a></li>
+                <li><a href="#">Drums</a></li>
+                <li><a href="#">Orchestral</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="electric" id="electric">
+        <h1 class="title">Electric <span>Guitars</span></h1>
+        <div class="bar">
+            <div class="filter">
+                <h2>Filter</h2>
+            </div>
+            <div class="sort">
+                <h3>Sort by <img src="Images/arrow.png"></h3>
+            </div>
+        </div>
+        <div class="outside">
+            <div class="wrapper">
+                <div class="box">
+                    <h2> ON SALE</h2>
+                    <a href="product-page.html"><img src="Images/p_region_GRG121DX_BKF_2Y_03_180x.png" alt=""></a>
+                    <h3>Ibanez GIO Series Electric Guitar</h3>
+                    <div class="pricetag">
+                        <h2>$449.99</h2>
+                        <h1>$399.00</h1>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>   
+            
+
+                <div class="box">
+                    <h2> ON SALE</h2>
+                    <img src="Images/p_region_GRG131DX_BKF_2Y_01_en_1_180x.png" alt="">
+                    <h3>Ibanez GIO Series Electric Guitar</h3>
+                    <div class="pricetag">
+                        <h2>$499.00</h2>
+                        <h1>$459.00</h1>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>   
+
+                <div class="box">
+                    <h2> ON SALE</h2>
+                    <img src="Images/ensvhsvch1_1_300x300.png" alt="">
+                    <h3>Epiphone Les Paul Special Electric Guitar</h3>
+                    <div class="pricetag">
+                        <h2>$499.00</h2>
+                        <h1>$399.00</h1>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="box">
+                    <img src="Images/test.png" style="height: 540px; padding-top: 100px;">
+                </div>
+                <div class="box">
+                    <img src="Images/guitar2.png" style="height: 540px; padding-top: 100px;">
+                </div>
+                <div class="box">
+                    <img src="Images/guitar3.png" style="height: 540px; padding-top: 100px;">
+                </div>
+                <div class="box">
+                    <h1>SOLD OUT</h1>
+                    <img src="Images/guitar8.png" style="height: 540px;">
+                </div>
+                <div class="box">
+                    <h1>SOLD OUT</h1>
+                    <img src="Images/guitar 7.png" style="height: 540px; ">
+                </div>
+                <div class="box">
+                    <h1>SOLD OUT</h1>
+                    <img src="Images/guitar9.png" style="height: 540px ;">
+                </div>
+            </div>
+            <div class="product-list-mobile-version">
+                <a href="product-page.html"><img src="Images/pl1.JPG" style="height:330;width:175px;"></a>
+                <img src="Images/pl2.JPG" style="height:330;width:175px;">
+                <img src="Images/pl3.JPG" style="height:340;width:175px;">
+                <img src="Images/pl4.JPG" style="height:340;width:175px;">
+                <img src="Images/pl5.JPG" style="height:330;width:175px;">
+                <img src="Images/pl6.JPG" style="height:330;width:175px;">
+                <img src="Images/pl7.JPG" style="height:330;width:175px;">
+                <img src="Images/pl8.JPG" style="height:330;width:175px;">
+                <img src="Images/pl9.JPG" style="height:340;width:175px;">
+            </div>
+            <button>Load More</button>
+        </div>
+
+    </section>
+    
+    <footer>
+        <h1>Back to top</h1>
+        <h2> @2022, Pakenham Music</h2>
+        <h2>Powered by Shopify</h2>
+        <img src="Images/235-2355939_planetgoku-offers-payment-options-through-paypal-apple-mastercard.png">
+    </footer>
+<script src="script.js"></script>    
+</body>
+
+
+</html>
